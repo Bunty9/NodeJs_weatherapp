@@ -1,0 +1,24 @@
+{
+  "name": "NodeJs_weatherapp",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Bunty9 <cbipin2000@gmail.com>",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bunty9/NodeJs_weatherapp.git"
+  },
+  "scripts": {
+    "start": "./bin/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "pino": "^6.11.0",
+    "pino-http": "^5.3.0",
+    "pino-pretty": "^4.3.0"
+  }
+}
